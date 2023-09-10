@@ -1,5 +1,7 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run -A --unstable --watch main.tsx",
+    "build": "deno run -A --unstable build.tsx",
+    "build:tailwind": "npx tailwindcss -i ./src/styles/md3.tailwind.css -o ./src/styles/md3.css"
   }
 }
