@@ -10,21 +10,19 @@ export type TodoProps = {
 };
 
 export const Todo = ({ id, content, done }: TodoProps) => (
-  <form id={id} class="flex gap-5">
-    <label class="inline-flex items-center">
+  <form id={id} class="flex gap-4">
+    <label class="inline-flex items-center gap-4">
       <input
         type="checkbox"
         name="checked-demo"
         class="
-          rounded-[2px] 
-          w-[18px] h-[18px] 
-          flex-1
+          rounded
+          w-6 aspect-square 
           accent-primary-600 hover:accent-primary-600 dark:accent-primary-200 
-          ltr:mr-3 rtl:ml-3
         "
         checked={done}
       />
-      <span>{content}</span>
+      <span class="flex-1">{content}</span>
     </label>
     <IconButton />
   </form>
