@@ -1,5 +1,10 @@
 export default {
-  content: ['./tailmater/*.html/', './tailmater/src/js/*.js'],
+  content: [
+    './tailmater/*.html/',
+    './tailmater/src/js/*.js',
+    './*.tsx',
+    './src/**/*'
+  ],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
