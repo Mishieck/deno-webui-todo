@@ -19,7 +19,7 @@ const todo = (
   />
 );
 const todoSkeleton = (
-  <div class="w-64 border">
+  <div class="w-64">
     <TodoSkeleton />
   </div>
 );
