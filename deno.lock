@@ -78,6 +78,7 @@
     "https://ejm.sh/github.com/webui-dev/deno-webui/blob/main/src/webui-macos-clang-x64/webui-2.dylib": "1fec58a01ca0da163fffbe4b3da934796493447b2d1d017e85f6c117f0a8f4e6",
     "https://ejm.sh/github.com/webui-dev/deno-webui/blob/main/src/webui-windows-msvc-x64/webui-2.dll": "ed8bd9ddc65cf1ea1e66e15a594c8f95f52724d4615ab7ba2ee44bdea454d7b9",
     "https://esm.sh/preact-render-to-string@5.2.6": "a18f839a9bef65fc6b18388854fa9c68fe495d1a23ef7e7e70c86d11b3f90137",
+    "https://esm.sh/preact@10.15.1": "2b79349676a4942fbcf835c4efa909791c2f0aeca195225bf22bac9866e94b4e",
     "https://esm.sh/preact@10.15.1/jsx-runtime": "2c75711d88680b0cae95d2c34786ac585c48edd44f8262afaa2954a383725a41",
     "https://esm.sh/stable/preact@10.15.1/denonext/jsx-runtime.js": "52806054f5b3477005ab4bdc17de3d219ccc6c130d0cd803c45667b0cac2f6ed",
     "https://esm.sh/stable/preact@10.15.1/denonext/preact.mjs": "30710ac1d5ff3711ae0c04eddbeb706f34f82d97489f61aaf09897bc75d2a628",
