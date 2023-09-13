@@ -4,7 +4,7 @@ import { IconButton } from './icon-button.tsx';
 
 export const Editor = () => {
   return (
-    <form action="" class="flex flex-row gap-5">
+    <form action="" class="flex items-center gap-4">
       <input
         type="text"
         aria-label="inputtext"
@@ -28,7 +28,7 @@ export const Editor = () => {
         placeholder="Enter todo"
         value=""
       ></input>
-      <IconButton />
+      <IconButton icon="add" />
     </form>
   );
 };
