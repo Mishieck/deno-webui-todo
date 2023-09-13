@@ -24,6 +24,6 @@ export const Todo = ({ id, content, done }: TodoProps) => (
       />
       <span class="flex-1">{content}</span>
     </label>
-    <IconButton />
+    <IconButton icon="delete" />
   </form>
 );
