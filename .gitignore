@@ -6,3 +6,6 @@ tailmater
 
 # JS files
 /**/*.js
+
+# HTML test file
+test.html
