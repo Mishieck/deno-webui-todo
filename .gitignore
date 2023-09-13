@@ -3,3 +3,6 @@ deno-webui
 
 # Tailmater
 tailmater
+
+# JS files
+/**/*.js
