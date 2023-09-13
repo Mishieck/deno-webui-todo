@@ -1,11 +1,15 @@
 /* @jsxImportSource https://esm.sh/preact@10.15.1 */
 
-export const IconButton = () => {
+export type IconButtonProps = {
+  icon: string;
+};
+
+export const IconButton = ({ icon }: IconButtonProps) => {
   return (
     <button
       type="button"
       class="
-        material-symbols-outlined
+        material-symbols-outlined md-24
         btn
         relative 
         !inline-flex 
@@ -18,16 +22,14 @@ export const IconButton = () => {
         px-6 
         rounded-[6.25rem] 
         hover:shadow-md 
-        text-sm 
         tracking-[.00714em] 
-        font-medium 
         bg-primary-600 
         text-white 
         dark:bg-primary-200 
         dark:text-primary-800
       "
     >
-      settings
+      {icon}
     </button>
   );
 };
