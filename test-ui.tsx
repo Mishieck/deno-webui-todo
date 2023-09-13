@@ -8,7 +8,7 @@ import { Editor } from './src/components/editor.tsx';
 import { getCurrentDate } from './src/utils/time.utils.ts';
 import { TodoSkeleton } from './src/components/todo-skeleton.tsx';
 
-const iconButton = <IconButton />;
+const iconButton = <IconButton icon="add" />;
 const editor = <Editor />;
 const todo = (
   <Todo
@@ -42,14 +42,16 @@ const page = /* html */ `
     <link href="./src/styles/md3.css" rel="stylesheet" />
     <title>Todo - Test</title>
   </head>
-  <body class="
-    font-sans 
-    text-base 
-    font-normal 
-    text-gray-700 
-    dark:text-gray-200 
-    bg-surface-100 
-    dark:bg-surfacedark-100"
+  <body 
+    class="
+      font-sans 
+      text-base 
+      font-normal 
+      text-gray-700 
+      dark:text-gray-200 
+      bg-surface-100 
+      dark:bg-surfacedark-100
+    "
   >
     <div class="p-5 flex flex-col gap-3">${content}</div>
   </body>
